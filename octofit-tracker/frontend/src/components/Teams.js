@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Teams = () => {
   const [teams, setTeams] = useState([]);
-  const endpoint = `${process.env.REACT_APP_CODESPACE_URL}/api/teams/`;
+  const endpoint = "https://refactored-engine-7rx9jwqw6vj29v6-8000.app.github.dev/api/teams/";
 
   useEffect(() => {
     console.log('Fetching teams from:', endpoint);
